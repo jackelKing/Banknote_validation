@@ -1,3 +1,7 @@
+WORKING LINK - 
+https://banknote-validation.onrender.com
+
+
 # 🏦 Banknote Authentication Predictor
 
 A **Gradio-based web app** that predicts whether a banknote is **Genuine** ✅ or **Fake** ❌ based on 4 key features: Variance, Skewness, Kurtosis, and Entropy.  
@@ -30,6 +34,7 @@ It also provides **interactive 2D and 3D visualizations** of the input and exist
 | Class      | 0 = Genuine, 1 = Fake                             | N/A            |
 
 ---
+
 
 
 
