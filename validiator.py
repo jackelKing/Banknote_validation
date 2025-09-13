@@ -7,6 +7,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import confusion_matrix, accuracy_score
 import gradio as gr
 from mpl_toolkits.mplot3d import Axes3D
+import os
 
 df = pd.read_csv("data_banknote_authentication.csv")
 X = df[['variance','skewness','kurtosis','entropy']]
