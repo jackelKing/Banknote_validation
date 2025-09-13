@@ -19,7 +19,6 @@ It also provides **interactive 2D and 3D visualizations** of the input and exist
 
 ## 📊 Dataset
 
-- Based on the **Banknote Authentication dataset** from [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/banknote+authentication)
 - Features:
 
 | Feature     | Description                                         | Range           |
@@ -31,5 +30,6 @@ It also provides **interactive 2D and 3D visualizations** of the input and exist
 | Class      | 0 = Genuine, 1 = Fake                             | N/A            |
 
 ---
+
 
 
