@@ -78,10 +78,10 @@ def predict_banknote_gradio(variance, skewness, kurtosis, entropy):
 iface = gr.Interface(
     fn=predict_banknote_gradio,
     inputs=[
-        gr.Number(label="Variance (Measure of how much the pixel values of the banknote image vary.) (0.0 – 7.0)"),
-        gr.Number(label="Skewness (Asymmetry of the pixel value distribution.) (-14.0 – 14.0)"),
-        gr.Number(label="Kurtosis (Sharpness or peakedness of the pixel value distribution..) (-10.0 – 20.0)"),
-        gr.Number(label="Entropy (Randomness or complexity in the pixel patterns.) (-2.0 – 3.0)")
+        gr.Number(label="Variance (Measure of how much the pixel values of the banknote image vary.) (-1 – 1)"),
+        gr.Number(label="Skewness (Asymmetry of the pixel value distribution.) (-1 – 1)"),
+        gr.Number(label="Kurtosis (Sharpness or peakedness of the pixel value distribution..) (-1 – 1)"),
+        gr.Number(label="Entropy (Randomness or complexity in the pixel patterns.) (-1 – 1)")
     ],
     outputs=[
         gr.Textbox(label="Prediction"),
