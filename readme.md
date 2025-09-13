@@ -27,13 +27,14 @@ It also provides **interactive 2D and 3D visualizations** of the input and exist
 
 | Feature     | Description                                         | Range           |
 |------------|----------------------------------------------------|----------------|
-| Variance   | Measure of pixel value variation                  | 0.0 – 7.0      |
-| Skewness   | Asymmetry of pixel value distribution            | -14.0 – 14.0   |
-| Kurtosis   | Sharpness / peakedness of pixel distribution     | -10.0 – 20.0   |
-| Entropy    | Randomness / complexity in pixel patterns        | -2.0 – 3.0     |
+| Variance   | Measure of pixel value variation                  | -1.0 – 1.0      |
+| Skewness   | Asymmetry of pixel value distribution            | -1.0 – 1.0   |
+| Kurtosis   | Sharpness / peakedness of pixel distribution     | -1.0 – 1.0   |
+| Entropy    | Randomness / complexity in pixel patterns        | -1.0 – 1.0     |
 | Class      | 0 = Genuine, 1 = Fake                             | N/A            |
 
 ---
+
 
 
 
