@@ -12,7 +12,6 @@ It also provides **interactive 2D and 3D visualizations** of the input and exist
 
 ## ✨ Features
 
-- 🎛️ Interactive **sliders** for all 4 features.
 - 🔮 Predicts **Genuine** or **Fake** banknotes.
 - 📊 **2D Plot**: Variance vs Skewness.
 - 🌐 **3D Plot**: Variance, Skewness, Kurtosis.
@@ -34,6 +33,7 @@ It also provides **interactive 2D and 3D visualizations** of the input and exist
 | Class      | 0 = Genuine, 1 = Fake                             | N/A            |
 
 ---
+
 
 
 
